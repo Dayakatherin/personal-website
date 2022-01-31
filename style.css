@@ -303,13 +303,15 @@ footer p:nth-child(1)
     }
 } 
 
-@media (max-width:425px)
+@media (max-width:1025px)
 {
-    .basic nav
+    .logo
     {
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:space-between;
+        font-size: 30px;
+    }
+    h1
+    {
+        font-size:35px;
     }
 }
 
